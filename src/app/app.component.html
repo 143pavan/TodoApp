@@ -1,0 +1,12 @@
+<div>
+  <h1 class="text-center ">Todo Application</h1>
+  <br>
+  <form action="" class="container " style="display: flex;">
+    <input type="text" class="form-control" [(ngModel)]="task" name="ram"/>
+    <button class="btn btn-success" (click)="addTask()">Add</button>
+  </form>
+</div>
+<div>
+  <app-todo></app-todo>
+</div>
+  <router-outlet></router-outlet>
